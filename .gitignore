@@ -28,5 +28,7 @@ target/
 #Property files
 *.properties
 
+.DS_Store
+
 #.idea
 .idea
