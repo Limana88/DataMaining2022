@@ -3,13 +3,12 @@ package ru.kpfu.itis;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.zip.Adler32;
 
 public class BloomFilter {
-    public boolean[] bits;
+    public int[] bits;
     private int m;
     private int k;
 
@@ -56,32 +55,18 @@ public class BloomFilter {
         return value;
     }
 
-    public boolean contains(String word) {
-        List<byte[]> hashedStrings = getHashedStrings(10, word);
-        boolean result = true;
-
-        for(int  i = 0; i < hashedStrings.size(); i++) {
-            int value = hashIndex(hashedStrings.get(i), bits.length);
-            if (!bits[value]) {
-                result = false;
-                break;
-            }
-        }
-        return result;
-    }
-
     public void add(String word) {
         List<byte[]> hashedStrings = getHashedStrings(k,  word);
         for(int  i = 0; i < hashedStrings.size(); i++) {
             int value = hashIndex(hashedStrings.get(i), bits.length);
-            bits[value] = true;
+            bits[value] += 1;
         }
     }
 
     public void initBits(int size) {
-        bits = new boolean[size];
+        bits = new int[size];
         for (int i = 0; i < bits.length; i++) {
-            bits[i] = false;
+            bits[i] = 0;
         }
     }
 
@@ -91,5 +76,9 @@ public class BloomFilter {
 
     public void setK(int k) {
         this.k = k;
+    }
+
+    public int[] getBits() {
+        return bits;
     }
 }
