@@ -12,5 +12,5 @@
 ### 0.4 Frequent Itemset
 - 3 задание из контрольной работы, Multistage algorithm. 1 вариант - <https://docs.google.com/document/d/14KId5l8FesfjMYQBYeTc4AagyVNRPIX0xoly7cbi7O0/edit?usp=sharing>, 2 вариант - <https://docs.google.com/document/d/1fIlGBZoArrE44Z8XlDSINRCziEiS54d23SPNLg79wB4/edit?usp=sharing>, 3 вариант - <https://docs.google.com/document/d/1S7gp0Vgbv8fs5tytlPlyC81BBl5cVfGfILd_3nQQrWw/edit>. 
 
-### 0.5 K-means - algorithm klustering.
+### 0.5 K-means - algorithm сlustering.
  - Применяем метод кластеризации для данных из Spotify. Объяснение - <https://docs.google.com/document/d/1Q46AvBQ0D-0sxDZUQfcs-auQs63XU9U67NED3vCA3lc/edit?usp=sharing>. 
