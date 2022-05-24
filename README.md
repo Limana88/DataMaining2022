@@ -14,3 +14,5 @@
 
 ### 0.5 K-means - algorithm сlustering.
  - Применяем метод кластеризации для данных из Spotify. Объяснение - <https://docs.google.com/document/d/1Q46AvBQ0D-0sxDZUQfcs-auQs63XU9U67NED3vCA3lc/edit?usp=sharing>. 
+### 0.6 Distances 
+- Рассчитываем дистанцию между статьей и ключевыми словами. Текст задания - <https://docs.google.com/document/d/1-S4EsTJdqwyXTV6ZAXIAZ6F6sqLf2vLt1QJn6fwhHyw/edit>.
