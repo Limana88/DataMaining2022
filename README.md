@@ -14,5 +14,5 @@
 
 ### 0.5 K-means - algorithm сlustering.
  - Применяем метод кластеризации для данных из Spotify. Объяснение - <https://docs.google.com/document/d/1Q46AvBQ0D-0sxDZUQfcs-auQs63XU9U67NED3vCA3lc/edit?usp=sharing>. 
-### 0.6 Distances 
-- Рассчитываем дистанцию между статьей и ключевыми словами. Текст задания - <https://docs.google.com/document/d/1-S4EsTJdqwyXTV6ZAXIAZ6F6sqLf2vLt1QJn6fwhHyw/edit>.
+### [0.6 Distances](https://github.com/Limana88/DataMaining2022/tree/main/0.6%20Distances) 
+- Рассчитываем дистанцию между статьей и ключевыми словами. Текст задания - <https://docs.google.com/document/d/1-S4EsTJdqwyXTV6ZAXIAZ6F6sqLf2vLt1QJn6fwhHyw/edit>. Объяснение - <https://docs.google.com/document/d/1uhUeXFUdp2bKn1jxhat_D6YbcJ_jpMOgx7i36GbvbeY/edit>
